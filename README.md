@@ -1,11 +1,11 @@
 # giny
 a tiny go framework (learning purpose)
-usage 
+usage
 ```go
 package main
 
 import (
-  "./giny"
+  "giny"
   "fmt"
   //"net/http"
   "./api"
@@ -38,7 +38,7 @@ func main() {
   giny.RegisterRouter (path, router)
 ```
 
-## Router 
+## Router
 ```go
   giny.NewRouter ()
 ```
