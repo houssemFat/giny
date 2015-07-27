@@ -66,7 +66,7 @@ func GetUserRouter () *giny.Router {
     router.On ("/login", UserLogin)
     router.On ("/register", UserRegister)
     router.On ("/info", UserInformations)
-    router.On ("/item/:id", GetList)
+    router.On ("/item/:id", GetItem)
     router.On ("/list", GetList)
     router.On ("/", UserInformations)
     return router
